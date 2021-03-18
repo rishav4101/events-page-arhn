@@ -14,7 +14,7 @@ html,body{
   }
   
   section {
-    height: 200vh;
+    height: 250vh;
     font-size: 40px;
     font-weight: 100;
     background-color: #000000;
@@ -27,16 +27,16 @@ html,body{
     background: rgb(0, 0, 0);
   }
   section:nth-child(2) {
-    background: #ffd3d3;
+    background:rgba(182,135,188,.9);
   }
   section:nth-child(3) {
-    background: #daf2ff;
+    background: rgb(0, 0, 0);
   }
   section:nth-child(4) {
-    background: #e3ffd3;
+    background: rgba(182,135,188,.9);
   }
   section:nth-child(5) {
-    background: #f3d6ff;
+    background: rgb(0, 0, 0);
   }
   .nav__wrapper {
     position: fixed;
@@ -50,8 +50,10 @@ html,body{
     margin: 0 0 100px 30px;
   }
   .nav__counter {
-    font-size: 24px;
+    font-size: 30px;
     transition: all 0.15s ease-out;
+    font-family: 'Chango', cursive;
+    font-family: 'Russo One', sans-serif;
   }
   .nav__title {
     font-size: 32px;
@@ -81,8 +83,8 @@ html,body{
   .nav li:after {
     content: "";
     display: block;
-    border-left: 2px solid rgb(0, 0, 0);
-    border-top: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgba(95,72,109,.9);
+    border-top: 2px solid rgba(95,72,109,.9);
     height: 250px;
     width: 20px;
     position: absolute;
@@ -92,7 +94,9 @@ html,body{
   .nav li a {
     display: block;
     padding: 0;
-    color: rgb(0, 0, 0);
+    font-family: 'Chango', cursive;
+    font-family: 'Russo One', sans-serif;
+    color: rgba(95,72,109,.9);
     transition: all 0.15s ease-out;
   }
   @media only screen and (max-width: 821px){
@@ -156,16 +160,20 @@ html,body{
     width: 100%;
     margin: 0px;
     margin-bottom: 0px;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 600;
     text-align: left;
+    font-family: 'Chango', cursive;
+    font-family: 'Russo One', sans-serif;
+
 }
 .e-text {
     position: relative;
     margin: 0px;
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
+    font-family: 'Playfair Display', serif;
 }
 
 .bg_slider {
